@@ -1,0 +1,1316 @@
+{
+	"info": {
+		"_postman_id": "5f38140d-d6ca-4a2d-aac5-501c884c5772",
+		"name": "Komunitas Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20350235"
+	},
+	"item": [
+		{
+			"name": "POST Komunitas",
+			"item": [
+				{
+					"name": "POST Komunitas Positif",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"namaKomunitas\":\"PUBG Depok\",\r\n    \"deskripsi\":\"Pecinta PUBG Depok\",\r\n    \"lokasi\":\"Depok\",\r\n    \"acceptance\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas?idUser=1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Komunitas Negatif 1",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"namaKomunitas\":\"PUBG Jabodetabek\",\r\n    \"deskripsi\":\"\",\r\n    \"lokasi\":\"\",\r\n    \"acceptance\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas?idUser=1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								},
+								{
+									"key": "Authorization",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Komunitas Negatif",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"namaKomunitas\":\"Mobile Legend Kota Depok\",\r\n    \"deskripsi\":\"Grup ML Kota Depok Setelah di Edit\",\r\n    \"lokasi\":\"Depok\",\r\n    \"acceptance\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas?idUser=1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								},
+								{
+									"key": "Authorization",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Komunitas Negatif 2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"namaKomunitas\":\"PUBG Depok\",\r\n    \"deskripsi\":\"Pecinta PUBG\",\r\n    \"lokasi\":\"Sawangan\",\r\n    \"acceptance\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas?idUser=1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT Komunitas",
+			"item": [
+				{
+					"name": "UpdateKomunitas",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"namaKomunitas\":\"Mobile Legend Dpk\",\r\n    \"deskripsi\":\"Grup ML Kota Depok Setelah di Edit\",\r\n    \"lokasi\":\"Depok\",\r\n    \"acceptance\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/4",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"4"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "UpdateKomunitas",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "/C:/Users/abdul/Downloads/Bahan MAGER/ML2.jpg"
+										},
+										{
+											"key": "komunitas",
+											"value": "{\n    \"namaKomunitas\":\"Mobile Legend Dpk\",\n    \"deskripsi\":\"Pecinta Mobile Legend Silahkan Join\",\n    \"lokasi\":\"Depok\",\n    \"acceptance\":false\n}",
+											"contentType": "application/json",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/1",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"1"
+									],
+									"query": [
+										{
+											"key": "file",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 15:01:20 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"created_date\": \"2022-04-08T21:34:33.773+0700\",\n        \"updated_date\": \"2022-04-08T22:01:20.116+0700\",\n        \"deleted_date\": null,\n        \"id\": 1,\n        \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/ML2.jpg\",\n        \"namaKomunitas\": \"Mobile Legend Dpk\",\n        \"deskripsi\": \"Pecinta Mobile Legend Silahkan Join\",\n        \"lokasi\": \"Depok\",\n        \"jumlahAnggota\": null,\n        \"acceptance\": false\n    },\n    \"message\": \"Perubahan disimpan\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GET Komunitas",
+			"item": [
+				{
+					"name": "Get All Komunitas",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/list?size=10&page=0",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"list"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Komunitas",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/list?size=10&page=0",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"list"
+									],
+									"query": [
+										{
+											"key": "size",
+											"value": "10"
+										},
+										{
+											"key": "page",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 15:02:10 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"content\": [\n            {\n                \"created_date\": \"2022-04-08T21:57:33.026+0700\",\n                \"updated_date\": \"2022-04-08T21:57:33.026+0700\",\n                \"deleted_date\": null,\n                \"id\": 8,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/pubg.jpg\",\n                \"namaKomunitas\": \"PUBG Kab. Bogor\",\n                \"deskripsi\": \"Pecinta PUBG Silahkan Join\",\n                \"lokasi\": \"Kab.Bogor\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:57:04.374+0700\",\n                \"updated_date\": \"2022-04-08T21:57:04.374+0700\",\n                \"deleted_date\": null,\n                \"id\": 7,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/FreeFire.jpeg\",\n                \"namaKomunitas\": \"Free Fire Tangerang\",\n                \"deskripsi\": \"Pecinta FF Silahkan Join\",\n                \"lokasi\": \"Tangerang\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:56:35.402+0700\",\n                \"updated_date\": \"2022-04-08T21:56:35.402+0700\",\n                \"deleted_date\": null,\n                \"id\": 6,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/Call%20of%20duty%20Mobile%20Garena.jpg\",\n                \"namaKomunitas\": \"Call Of Duty Bks\",\n                \"deskripsi\": \"Pecinta COD Silahkan Join\",\n                \"lokasi\": \"Bekasi\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:55:52.894+0700\",\n                \"updated_date\": \"2022-04-08T21:55:52.894+0700\",\n                \"deleted_date\": null,\n                \"id\": 5,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/Clash%20of%20clansh.png\",\n                \"namaKomunitas\": \"COC Balikpapan\",\n                \"deskripsi\": \"Pecinta COC Silahkan Join\",\n                \"lokasi\": \"Balikpapan\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:55:30.004+0700\",\n                \"updated_date\": \"2022-04-08T21:55:30.004+0700\",\n                \"deleted_date\": null,\n                \"id\": 4,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/league%20of%20angels%20chaos.png\",\n                \"namaKomunitas\": \"League Of Angels\",\n                \"deskripsi\": \"Pecinta League Of Angels Silahkan Join\",\n                \"lokasi\": \"Kediri\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:54:41.755+0700\",\n                \"updated_date\": \"2022-04-08T21:54:41.755+0700\",\n                \"deleted_date\": null,\n                \"id\": 3,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/WildRift.jpg\",\n                \"namaKomunitas\": \"LOL Wild Rift Bandung\",\n                \"deskripsi\": \"Pecinta LOL Silahkan Join\",\n                \"lokasi\": \"Bandung\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:48:26.436+0700\",\n                \"updated_date\": \"2022-04-08T21:48:26.436+0700\",\n                \"deleted_date\": null,\n                \"id\": 2,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/AOV.jpg\",\n                \"namaKomunitas\": \"AOV Jabodetabek\",\n                \"deskripsi\": \"Pecinta AOV Silahkan Join\",\n                \"lokasi\": \"Jakarta\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:34:33.773+0700\",\n                \"updated_date\": \"2022-04-08T22:01:20.116+0700\",\n                \"deleted_date\": null,\n                \"id\": 1,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/ML2.jpg\",\n                \"namaKomunitas\": \"Mobile Legend Dpk\",\n                \"deskripsi\": \"Pecinta Mobile Legend Silahkan Join\",\n                \"lokasi\": \"Depok\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            }\n        ],\n        \"pageable\": {\n            \"sort\": {\n                \"sorted\": true,\n                \"empty\": false,\n                \"unsorted\": false\n            },\n            \"pageNumber\": 0,\n            \"pageSize\": 10,\n            \"offset\": 0,\n            \"paged\": true,\n            \"unpaged\": false\n        },\n        \"last\": true,\n        \"totalPages\": 1,\n        \"totalElements\": 8,\n        \"first\": true,\n        \"sort\": {\n            \"sorted\": true,\n            \"empty\": false,\n            \"unsorted\": false\n        },\n        \"size\": 10,\n        \"number\": 0,\n        \"numberOfElements\": 8,\n        \"empty\": false\n    },\n    \"message\": \"Menampilkan list komunitas\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Komunitas Setelah Delete",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/list?size=10&page=0",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"list"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Komunitas Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/list?size=10&page=0",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"list"
+									],
+									"query": [
+										{
+											"key": "size",
+											"value": "10"
+										},
+										{
+											"key": "page",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 15:03:01 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"content\": [\n            {\n                \"created_date\": \"2022-04-08T21:57:33.026+0700\",\n                \"updated_date\": \"2022-04-08T21:57:33.026+0700\",\n                \"deleted_date\": null,\n                \"id\": 8,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/pubg.jpg\",\n                \"namaKomunitas\": \"PUBG Kab. Bogor\",\n                \"deskripsi\": \"Pecinta PUBG Silahkan Join\",\n                \"lokasi\": \"Kab.Bogor\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:57:04.374+0700\",\n                \"updated_date\": \"2022-04-08T21:57:04.374+0700\",\n                \"deleted_date\": null,\n                \"id\": 7,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/FreeFire.jpeg\",\n                \"namaKomunitas\": \"Free Fire Tangerang\",\n                \"deskripsi\": \"Pecinta FF Silahkan Join\",\n                \"lokasi\": \"Tangerang\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:56:35.402+0700\",\n                \"updated_date\": \"2022-04-08T21:56:35.402+0700\",\n                \"deleted_date\": null,\n                \"id\": 6,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/Call%20of%20duty%20Mobile%20Garena.jpg\",\n                \"namaKomunitas\": \"Call Of Duty Bks\",\n                \"deskripsi\": \"Pecinta COD Silahkan Join\",\n                \"lokasi\": \"Bekasi\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:55:52.894+0700\",\n                \"updated_date\": \"2022-04-08T21:55:52.894+0700\",\n                \"deleted_date\": null,\n                \"id\": 5,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/Clash%20of%20clansh.png\",\n                \"namaKomunitas\": \"COC Balikpapan\",\n                \"deskripsi\": \"Pecinta COC Silahkan Join\",\n                \"lokasi\": \"Balikpapan\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:55:30.004+0700\",\n                \"updated_date\": \"2022-04-08T21:55:30.004+0700\",\n                \"deleted_date\": null,\n                \"id\": 4,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/league%20of%20angels%20chaos.png\",\n                \"namaKomunitas\": \"League Of Angels\",\n                \"deskripsi\": \"Pecinta League Of Angels Silahkan Join\",\n                \"lokasi\": \"Kediri\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:54:41.755+0700\",\n                \"updated_date\": \"2022-04-08T21:54:41.755+0700\",\n                \"deleted_date\": null,\n                \"id\": 3,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/WildRift.jpg\",\n                \"namaKomunitas\": \"LOL Wild Rift Bandung\",\n                \"deskripsi\": \"Pecinta LOL Silahkan Join\",\n                \"lokasi\": \"Bandung\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            },\n            {\n                \"created_date\": \"2022-04-08T21:34:33.773+0700\",\n                \"updated_date\": \"2022-04-08T22:01:20.116+0700\",\n                \"deleted_date\": null,\n                \"id\": 1,\n                \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/ML2.jpg\",\n                \"namaKomunitas\": \"Mobile Legend Dpk\",\n                \"deskripsi\": \"Pecinta Mobile Legend Silahkan Join\",\n                \"lokasi\": \"Depok\",\n                \"jumlahAnggota\": null,\n                \"acceptance\": false\n            }\n        ],\n        \"pageable\": {\n            \"sort\": {\n                \"sorted\": true,\n                \"empty\": false,\n                \"unsorted\": false\n            },\n            \"pageNumber\": 0,\n            \"pageSize\": 10,\n            \"offset\": 0,\n            \"paged\": true,\n            \"unpaged\": false\n        },\n        \"last\": true,\n        \"totalPages\": 1,\n        \"totalElements\": 7,\n        \"first\": true,\n        \"sort\": {\n            \"sorted\": true,\n            \"empty\": false,\n            \"unsorted\": false\n        },\n        \"size\": 10,\n        \"number\": 0,\n        \"numberOfElements\": 7,\n        \"empty\": false\n    },\n    \"message\": \"Menampilkan list komunitas\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Komunitas terpopuler",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/list/terpopuler?size=10&page=0",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"list",
+								"terpopuler"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DELETE Komunitas",
+			"item": [
+				{
+					"name": "DelKomunitas",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/5",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"5"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "DelKomunitas",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/2",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 15:02:52 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"AOV Jabodetabek\",\n    \"message\": \"Komunitas dibubarkan\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aktifitas Komunitas",
+			"item": [
+				{
+					"name": "User Join Komunitas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/join/1/1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"join",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "User Join Komunitas",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/join/1/2",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"join",
+										"1",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 25 Apr 2022 20:13:26 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"created_date\": \"2022-04-26T03:13:26.443+0700\",\n        \"updated_date\": \"2022-04-26T03:13:26.443+0700\",\n        \"deleted_date\": null,\n        \"id\": 7,\n        \"user\": {\n            \"created_date\": \"2022-04-20T18:38:05.182+0700\",\n            \"updated_date\": \"2022-04-20T18:38:05.182+0700\",\n            \"deleted_date\": null,\n            \"id\": 1,\n            \"nama\": \"MochRafi\",\n            \"username\": \"rafiadnan\",\n            \"email\": \"rafi@gmail.com\",\n            \"password\": \"12345678\",\n            \"fotoProfile\": \"http://markas-gamer.herokuapp.com/mager/showFile/twitter-icon.png\",\n            \"fotoHeader\": \"http://markas-gamer.herokuapp.com/mager/showFile/twitter-icon.png\",\n            \"biodata\": null,\n            \"roles\": []\n        },\n        \"komunitas\": {\n            \"created_date\": \"2022-04-20T18:38:08.339+0700\",\n            \"updated_date\": \"2022-04-26T03:13:26.445+0700\",\n            \"deleted_date\": null,\n            \"id\": 2,\n            \"banner\": \"https://markas-gamer.herokuapp.com/mager/showFile/twitter-icon.png\",\n            \"namaKomunitas\": \"League Of Legend\",\n            \"deskripsi\": \"Kumpulan pemain LOL Se-Indonesia\",\n            \"lokasi\": \"Indonesia\",\n            \"jumlahAnggota\": 1,\n            \"acceptance\": false\n        },\n        \"komunitasRoles\": {\n            \"created_date\": \"2022-04-20T18:38:03.548+0700\",\n            \"updated_date\": \"2022-04-20T18:38:03.548+0700\",\n            \"deleted_date\": null,\n            \"id\": 1,\n            \"jenisRole\": \"ROOM_MASTER\"\n        }\n    },\n    \"message\": \"Berhasil Join Komunitas\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Leave Komunitas",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/1",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"1"
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTE3ODExfQ.bbLgMXx3aEt54H9xXfJUFeys3wtzweQwL8FC2AFo4bI",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Komunitas Role",
+			"item": [
+				{
+					"name": "Create Role",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTQ2NjUxfQ.trslXXYhrFe4lrwrLzi04iH5o3h1QLN2seXs05LQ_8o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"jenisRole\":\"USER_ADMIN\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"roles"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Role",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"jenisRole\":\"USER_ADMIN\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"roles"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 12 Apr 2022 08:24:01 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"created_date\": \"2022-04-12T15:24:01.435+0700\",\n        \"updated_date\": \"2022-04-12T15:24:01.435+0700\",\n        \"deleted_date\": null,\n        \"id\": 4,\n        \"jenisRole\": \"USER_ADMIN\"\n    },\n    \"message\": \"Roles berhasil ditambahkan\",\n    \"status\": \"200\"\n}"
+						},
+						{
+							"name": "Create Role",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTQ2NjUxfQ.trslXXYhrFe4lrwrLzi04iH5o3h1QLN2seXs05LQ_8o",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"jenisRole\":\"USER_ADMIN\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"roles"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 25 Apr 2022 20:17:48 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"created_date\": \"2022-04-26T03:17:48.401+0700\",\n        \"updated_date\": \"2022-04-26T03:17:48.401+0700\",\n        \"deleted_date\": null,\n        \"id\": 4,\n        \"jenisRole\": \"USER_ADMIN\"\n    },\n    \"message\": \"Roles berhasil ditambahkan\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Komunitas Roles",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTQ2NjUxfQ.trslXXYhrFe4lrwrLzi04iH5o3h1QLN2seXs05LQ_8o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles/list?size=10&page=0",
+							"protocol": "https",
+							"host": [
+								"markas-gamer",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"mager",
+								"komunitas",
+								"roles",
+								"list"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Komunitas Roles",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles/list?size=10&page=0",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"roles",
+										"list"
+									],
+									"query": [
+										{
+											"key": "size",
+											"value": "10"
+										},
+										{
+											"key": "page",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 12 Apr 2022 08:25:13 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"content\": [\n            {\n                \"created_date\": \"2022-04-12T15:24:01.435+0700\",\n                \"updated_date\": \"2022-04-12T15:24:01.435+0700\",\n                \"deleted_date\": null,\n                \"id\": 4,\n                \"jenisRole\": \"USER_ADMIN\"\n            },\n            {\n                \"created_date\": \"2022-04-12T21:52:43.301+0700\",\n                \"updated_date\": \"2022-04-12T21:52:43.301+0700\",\n                \"deleted_date\": null,\n                \"id\": 3,\n                \"jenisRole\": \"MEMBER\"\n            },\n            {\n                \"created_date\": \"2022-04-12T21:52:42.773+0700\",\n                \"updated_date\": \"2022-04-12T21:52:42.774+0700\",\n                \"deleted_date\": null,\n                \"id\": 2,\n                \"jenisRole\": \"ADMIN\"\n            },\n            {\n                \"created_date\": \"2022-04-12T21:52:42.215+0700\",\n                \"updated_date\": \"2022-04-12T21:52:42.215+0700\",\n                \"deleted_date\": null,\n                \"id\": 1,\n                \"jenisRole\": \"ROOM_MASTER\"\n            }\n        ],\n        \"pageable\": {\n            \"sort\": {\n                \"sorted\": true,\n                \"unsorted\": false,\n                \"empty\": false\n            },\n            \"pageNumber\": 0,\n            \"pageSize\": 10,\n            \"offset\": 0,\n            \"paged\": true,\n            \"unpaged\": false\n        },\n        \"last\": true,\n        \"totalPages\": 1,\n        \"totalElements\": 4,\n        \"first\": true,\n        \"sort\": {\n            \"sorted\": true,\n            \"unsorted\": false,\n            \"empty\": false\n        },\n        \"numberOfElements\": 4,\n        \"size\": 10,\n        \"number\": 0,\n        \"empty\": false\n    },\n    \"message\": \"Menampilkan list user\",\n    \"status\": \"200\"\n}"
+						},
+						{
+							"name": "Get All Komunitas Roles",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0eWFoIiwicm9sZXMiOltdLCJpc3MiOiJodHRwczovL21hcmthcy1nYW1lci5oZXJva3VhcHAuY29tL21hZ2VyL2xvZ2luIiwiZXhwIjoxNjUwOTQ2NjUxfQ.trslXXYhrFe4lrwrLzi04iH5o3h1QLN2seXs05LQ_8o",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://markas-gamer.herokuapp.com/mager/komunitas/roles/list?size=10&page=0",
+									"protocol": "https",
+									"host": [
+										"markas-gamer",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"mager",
+										"komunitas",
+										"roles",
+										"list"
+									],
+									"query": [
+										{
+											"key": "size",
+											"value": "10"
+										},
+										{
+											"key": "page",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 25 Apr 2022 20:17:58 GMT"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"content\": [\n            {\n                \"created_date\": \"2022-04-26T03:17:48.401+0700\",\n                \"updated_date\": \"2022-04-26T03:17:48.401+0700\",\n                \"deleted_date\": null,\n                \"id\": 4,\n                \"jenisRole\": \"USER_ADMIN\"\n            },\n            {\n                \"created_date\": \"2022-04-20T18:38:04.652+0700\",\n                \"updated_date\": \"2022-04-20T18:38:04.652+0700\",\n                \"deleted_date\": null,\n                \"id\": 3,\n                \"jenisRole\": \"MEMBER\"\n            },\n            {\n                \"created_date\": \"2022-04-20T18:38:04.118+0700\",\n                \"updated_date\": \"2022-04-20T18:38:04.118+0700\",\n                \"deleted_date\": null,\n                \"id\": 2,\n                \"jenisRole\": \"ADMIN\"\n            },\n            {\n                \"created_date\": \"2022-04-20T18:38:03.548+0700\",\n                \"updated_date\": \"2022-04-20T18:38:03.548+0700\",\n                \"deleted_date\": null,\n                \"id\": 1,\n                \"jenisRole\": \"ROOM_MASTER\"\n            }\n        ],\n        \"pageable\": {\n            \"sort\": {\n                \"sorted\": true,\n                \"empty\": false,\n                \"unsorted\": false\n            },\n            \"pageNumber\": 0,\n            \"pageSize\": 10,\n            \"offset\": 0,\n            \"paged\": true,\n            \"unpaged\": false\n        },\n        \"last\": true,\n        \"totalPages\": 1,\n        \"totalElements\": 4,\n        \"first\": true,\n        \"sort\": {\n            \"sorted\": true,\n            \"empty\": false,\n            \"unsorted\": false\n        },\n        \"size\": 10,\n        \"number\": 0,\n        \"numberOfElements\": 4,\n        \"empty\": false\n    },\n    \"message\": \"Menampilkan list user\",\n    \"status\": \"200\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
